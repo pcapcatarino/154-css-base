@@ -16,8 +16,25 @@ h1{
  	margin: 50px 30px 100px 120px; /* margem 50px em cima, 30px direita, 100px baixo e 120a esquerda*/
  	padding: 30px; /* margem interna de 30px em cima direita baixo e esquerda*/
  	font: left;
+ 	position: relative;
  }
   body div.logo{
   width:100px; /* largura 30px*/
   float: right; /* encostar a direita*/
+  clear:left; /*limpar uma margem*/
  }
+ .bt{ 
+ 	position: absolute; /*tipo de posicionamento do botao*/
+ 	right: 5px;
+ 	top: 20px;
+ 	width: 10px;
+ 	height: 10px;
+ 	background-color: red;
+ }
+  .btrigth{
+  	right: 5px; /*botao a direita*/
+  }
+
+  .btleft{
+  	left: 5px; /*botao a esquerda*/
+  }
